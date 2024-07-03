@@ -2,6 +2,7 @@
 import HeaderCard from "../components/HeaderCard.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import AlertsBanner from "../components/AlertsBanner.astro";
 ---
 
 <html lang="en">
@@ -15,10 +16,10 @@ import Footer from "../components/Footer.astro";
 			body {
 				padding: 0;
 				margin: 0;
-				background-color: rgb(37, 41, 73);
+				background-color: #161616;
 			}
 			header {
-				background-color: whitesmoke;
+				background-color: #ffffff;
 				padding: 21px;
 			}
 
@@ -69,6 +70,7 @@ import Footer from "../components/Footer.astro";
 		</style>
 	</head>
 	<body>
+		<AlertsBanner />
 		<header>
 			<nav>
 				<ul>
