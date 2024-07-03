@@ -1,4 +1,6 @@
-# Astro Starter Kit: Minimal
+<h1 align="center">
+  AppsBuild
+</h1>
 
 ```sh
 npm create astro@latest -- --template minimal
