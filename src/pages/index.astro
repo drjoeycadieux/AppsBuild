@@ -1,5 +1,5 @@
 ---
-import HeaderCard from "../components/HeaderCard.astro";
+// import HeaderCard from "../components/HeaderCard.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import AlertsBanner from "../components/AlertsBanner.astro";
@@ -53,7 +53,7 @@ import AlertsBanner from "../components/AlertsBanner.astro";
 			}
 
 			.section {
-				padding: 25px;
+				padding: 9rem;
 				text-align: center;
 			}
 
@@ -66,6 +66,24 @@ import AlertsBanner from "../components/AlertsBanner.astro";
 				font-weight: 500;
 				width: 800px;
 				margin: auto;
+				font-size: 1.5rem;
+			}
+			.section1 {
+				padding: 9rem;
+				text-align: center;
+				background-color: burlywood;
+			}
+
+			.section1 .text-articles1 {
+				color: white;
+				padding-top: 25px;
+				font-family: "Lucida Sans", "Lucida Sans Regular",
+					"Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+					sans-serif;
+				font-weight: 500;
+				width: 800px;
+				margin: auto;
+				font-size: 1.5rem;
 			}
 		</style>
 	</head>
@@ -75,9 +93,7 @@ import AlertsBanner from "../components/AlertsBanner.astro";
 			<nav>
 				<ul>
 					<li><p>Techtack-Technologies</p></li>
-					<li><a href="#">Welcome</a></li>
-					<li><a href="#">Guide</a></li>
-					<li><a href="#">Technical</a></li>
+					<li><a href="/welcome">Welcome</a></li>
 					<li>
 						<a
 							target="_blank"
@@ -92,9 +108,20 @@ import AlertsBanner from "../components/AlertsBanner.astro";
 		<br />
 		<br />
 
-		<HeaderCard />
+		<!-- <HeaderCard /> -->
 		<div class="section">
 			<div class="text-articles">
+				<h3>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Ducimus ipsam cum repellat quibusdam, magnam asperiores
+					maiores laudantium animi earum neque nihil omnis dignissimos
+					sunt quam eum sint quis beatae hic!
+				</h3>
+			</div>
+		</div>
+
+		<div class="section1">
+			<div class="text-articles1">
 				<h3>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Ducimus ipsam cum repellat quibusdam, magnam asperiores
